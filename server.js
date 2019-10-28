@@ -1,7 +1,11 @@
 // can't use import without babel or TS
 const express = require('express');
+const connectDB = require('./config/db');
 
 const app = express();
+
+// connect db
+connectDB()
 
 // sends data from express to the requester when endpoint is hit
 app.get('/', (req, res) =>
