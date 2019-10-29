@@ -1,3 +1,4 @@
 {
-	"mongoURI": "mongodb+srv://joshua:badpassword@cluster0-paaln.mongodb.net/test?retryWrites=true&w=majority"
+	"mongoURI": "mongodb+srv://joshua:badpassword@cluster0-paaln.mongodb.net/test?retryWrites=true&w=majority",
+	"jwtSecret": "iHaveVeryStronkSecret4ü"
 }
